@@ -19,7 +19,7 @@ if os.path.exists(playfile):
     os.remove(playfile)
 playing = False
 
-print('ToddMode activated!')
+print('ToddMode activated!!')
 print('Do you want to work?')
 print('White for NO')
 print('Yellow for YES')
