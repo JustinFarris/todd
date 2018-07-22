@@ -6,6 +6,7 @@ Improvements to add:
 - dedicated 5v/2.1a power supply
 - Pi3 for built-in wifi/bluetoots
 - Battery
+- hidden switch to turn on/off touchscreen
 - Printed case
 - Header ribbon for i/o
 - Reconfigure double-click/click-hold/right-click intervals for touchscreen
