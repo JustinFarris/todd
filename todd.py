@@ -4,6 +4,7 @@ import time
 import os
 import subprocess
 import sys
+import random
 
 
 ## Replace all filenames with generic variables
