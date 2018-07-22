@@ -3,8 +3,8 @@ Todd does not want to work
 
 
 Improvements to add:
-- dedicated 5v/2.1a power supply
-- Pi3 for built-in wifi/bluetoots
+- dedicated 5v/2.1a power supply (Justin ordered)
+- Pi3 for built-in wifi/bluetoots (Justin ordered)
 - Battery
 - hidden switch to turn on/off touchscreen
 - Printed case
