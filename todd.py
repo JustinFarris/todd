@@ -19,7 +19,7 @@ if os.path.exists(playfile):
     os.remove(playfile)
 playing = False
 
-print('ToddMode activated!!')
+print('ToddMode activated!')
 print('Do you want to work?')
 print('White for NO')
 print('Yellow for YES')
@@ -37,7 +37,7 @@ while True:
         if playing == False:
             print('White/No pressed - White/No button disabled until song completes')
             playing = True
-            nopid = subprocess.Popen(["touch /tmp/playing && play -q BangOriginal.mp3 && rm /tmp/playing"], shell=True, stdin=None, stdout=None, stderr=None, close_fds=True)
+            nopid = subprocess.Popen(["touch /tmp/playing && play -q Songs/BangOriginal.mp3 && rm /tmp/playing"], shell=True, stdin=None, stdout=None, stderr=None, close_fds=True)
             time.sleep(0.2)
     if yes_state == False and no_state == True:
         print('Yellow/Yes pressed - button still enabled')
